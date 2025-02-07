@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro Informática para la gestión social</title>
+    <link rel="stylesheet" href="css/estilosforo.css">
+</head>
+<body>
+    <header>
+        <img width="100" alt="imagen de la UBV" src="img/imagen1.png">
+        <h1>Informática para la Gestión Social</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Descripción</a></li>
+            <li><a href="perfil.html">Perfil</a></li>
+            <li><a href="pensum.html">Pensum</a></li>
+            <li><a href="foro.html">Foro</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Foro de Informática para la Gestión Social:</h2>
+        <img width="300" alt="imagen de un foro" src="img/imagen5.jpeg">
+
+        <section class="new-post">
+            <h2>Nueva Publicación</h2>
+            <textarea id="post-content" placeholder="Escribe tu mensaje aquí..."></textarea>
+            <button onclick="addPost()">Publicar</button>
+        </section>
+
+        <section class="forum-posts">
+            <h2>Publicaciones Recientes</h2>
+            <div id="posts-container">
+                <!-- Los posts se añadirán aquí mediante JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>San Antonio de Capayacuar, Municipio Acosta, Estado Monagas, Venezuela.</p>
+        <br>
+        <p>&copy; 2024. Todos los Derechos Reservados.</p>
+    </footer>
+
+    <script src="script/scriptforo.js"></script>
+</body>
+</html>
